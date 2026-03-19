@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Тест по веб-серверам</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Вопросы по HTTP и веб-серверам</h1>
+    <form>
+        <ol>
+            <li>
+                <p>На каком порту работает HTTP сервер?</p>
+                <label><input type="radio" name="q1" checked> 80</label><br>
+                <label><input type="radio" name="q1"> 443</label><br>
+                <label><input type="radio" name="q1"> 5000</label><br>
+                <label><input type="radio" name="q1"> 8080</label>
+            </li>
+            <li>
+                <p>Какой метод HTTP позволяет получить данные?</p>
+                <label><input type="radio" name="q2"> POST</label><br>
+                <label><input type="radio" name="q2" checked> GET</label><br>
+                <label><input type="radio" name="q2"> PUT</label><br>
+                <label><input type="radio" name="q2"> PATCH</label>
+            </li>
+            <li>
+                <p>Из каких частей состоит HTTP запрос?</p>
+                <label><input type="checkbox" name="q3" checked> Версия HTTP протокола</label><br>
+                <label><input type="checkbox" name="q3" checked> HTTP метод</label><br>
+                <label><input type="checkbox" name="q3" checked> Адрес хоста</label>
+            </li>
+            <li>
+                <p>Какие HTTP статусы означают успешный ответ?</p>
+                <label><input type="radio" name="q4"> 100-199</label><br>
+                <label><input type="radio" name="q4" checked> 200-299</label><br>
+                <label><input type="radio" name="q4"> 300-399</label><br>
+                <label><input type="radio" name="q4"> 400-499</label><br>
+                <label><input type="radio" name="q4"> 500-599</label>
+            </li>
+            <li>
+                <p>Для чего нужен прокси-сервер?</p>
+                <label><input type="checkbox" name="q5" checked> Кэширование данных</label><br>
+                <label><input type="checkbox" name="q5" checked> Ограничение доступа к сайтам</label><br>
+                <label><input type="checkbox" name="q5"> Передача зашифрованных данных</label>
+            </li>
+            <li>
+                <p>Какая спецификация создаёт новый процесс на каждый запрос?</p>
+                <label><input type="radio" name="q6" checked> CGI</label><br>
+                <label><input type="radio" name="q6"> FastCGI</label><br>
+                <label><input type="radio" name="q6"> WSGI</label>
+            </li>
+            <li>
+                <p>Самый популярный веб-сервер среди сайтов-миллионников в 2020?</p>
+                <label><input type="radio" name="q7"> Apache</label><br>
+                <label><input type="radio" name="q7" checked> Nginx</label><br>
+                <label><input type="radio" name="q7"> Microsoft-IIS</label>
+            </li>
+            <li>
+                <p>Из каких частей состоит архитектура Apache?</p>
+                <label><input type="checkbox" name="q8" checked> Модульная система</label><br>
+                <label><input type="checkbox" name="q8" checked> Ядро</label>
+            </li>
+            <li>
+                <p>Компоненты архитектуры Nginx?</p>
+                <label><input type="checkbox" name="q9" checked> Мастер-процесс</label><br>
+                <label><input type="checkbox" name="q9" checked> Модульная система</label><br>
+                <label><input type="checkbox" name="q9" checked> Загрузчик кэша</label><br>
+                <label><input type="checkbox" name="q9" checked> Кэш-менеджер</label>
+            </li>
+            <li>
+                <p>Директива для задания порта в виртуальном хосте?</p>
+                <label><input type="radio" name="q10"> server</label><br>
+                <label><input type="radio" name="q10" checked> listen</label><br>
+                <label><input type="radio" name="q10"> server_listen</label><br>
+                <label><input type="radio" name="q10"> server_name</label>
+            </li>
+        </ol>
+        <button type="submit">Отправить</button>
+    </form>
+</body>
+</html>
+
+
